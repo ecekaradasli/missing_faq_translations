@@ -3,7 +3,7 @@ import requests
 import time
 import os
 
-# Ana modeller - DÜZELTILDI
+# Ana modeller 
 MODELS = {
     "tr_to_en": "https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-tr-en",
     "en_to_tr": "https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-tc-big-en-tr"  # DÜZELTILDI
