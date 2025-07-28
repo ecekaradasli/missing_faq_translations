@@ -17,7 +17,7 @@ BACKUP_MODELS = {
 }
 
 # Token'ı environment variable'dan al
-HF_TOKEN = os.getenv("HF_TOKEN", "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")
+HF_TOKEN = os.getenv("HF_TOKEN", "your_token")
 
 def translate_with_models(text, direction):
     """Metni belirtilen yöne çevir"""
