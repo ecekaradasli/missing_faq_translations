@@ -115,7 +115,7 @@ if __name__ == "__main__":
     print("TR->EN:", translate_with_models("Merhaba, nasılsın?", "tr_to_en"))
     print("EN->TR:", translate_with_models("Hello, how are you?", "en_to_tr"))
     
-    # Dosya işleme - DÜZELTILDI
+    # Dosya işleme 
     input_file = r"C:\Users\Monster\Desktop\translator\missing_translations_structured.json"  # Doğru dosya adı
     output_file = r"C:\Users\Monster\Desktop\translator\translation_results.json"  # Daha açık isim
     
